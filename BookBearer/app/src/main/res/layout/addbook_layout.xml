@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/catalogueISBN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Inserire ISBN"/>
+
+    <EditText
+        android:id="@+id/catalogueImg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Inserire link immagine"/>
+
+    <EditText
+        android:id="@+id/catalogueTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Inserire titolo"/>
+
+    <EditText
+        android:id="@+id/catalogueAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Inserire autore"/>
+
+    <EditText
+        android:id="@+id/catalogueGenre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Inserire genere"/>
+
+    <EditText
+        android:id="@+id/catalogueDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Inserire anno d'uscita"/>
+
+    <EditText
+        android:id="@+id/cataloguePages"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Inserire numero di pagine"/>
+
+    <Button
+        android:id="@+id/catalogueOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="OK"/>
+
+    <Button
+        android:id="@+id/catalogueAnnulla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Annulla"/>
+
+
+</LinearLayout>

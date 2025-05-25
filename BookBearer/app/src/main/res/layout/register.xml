@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/register" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bad_script"
+        android:letterSpacing="0.03"
+        android:text="Registrazione"
+        android:textColor="#CF8A00"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:id="@+id/regUsername"
+        android:hint="Nome utente"
+        android:textColor="#CF8A00"
+        android:textStyle="bold"
+        android:background="@drawable/forget"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:id="@+id/regMail"
+        android:hint="Email"
+        android:textColor="#CF8A00"
+        android:textStyle="bold"
+        android:background="@drawable/forget"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:id="@+id/regPass"
+        android:hint="Password di almeno 8 caratteri"
+        android:inputType="textPassword"
+        android:textColor="#CF8A00"
+        android:textStyle="bold"
+        android:background="@drawable/forget"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:id="@+id/regConfPass"
+        android:hint="Conferma Password"
+        android:inputType="textPassword"
+        android:textColor="#CF8A00"
+        android:textStyle="bold"
+        android:background="@drawable/forget"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#CF8A00"
+        android:fontFamily="@font/armata"
+        android:text="Registrati"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:cornerRadius="40dp" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/footer2" />
+
+</LinearLayout>

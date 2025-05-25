@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bookImg"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/bookImg"
+        android:fontFamily="@font/armata"
+        android:text="Titolo: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookAuthor"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bookTitle"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/bookImg"
+        android:fontFamily="@font/armata"
+        android:text="Autore\u005Ci: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookDate"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/bookImg"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/armata"
+        android:text="Data d'uscita: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookGenre"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/bookDate"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/armata"
+        android:text="Genere: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookPages"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/bookGenre"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/armata"
+        android:text="Numero pagine: "
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/addToTheToBeReadList"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bookDate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="#E88E07"
+        android:fontFamily="@font/armata"
+        android:layout_toRightOf="@+id/bookGenre"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/bookReviews"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/bookPages"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/armata"
+        android:text="Recensioni: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/theBearers"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/bookReviews"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/armata"
+        android:text="The bearers: "
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/readReviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookReviews"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#E88E07"
+        android:fontFamily="@font/armata"
+        android:layout_toRightOf="@+id/theBearers"
+        android:text="Leggi" />
+
+    <Button
+        android:id="@+id/addReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theBearers"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#E88E07"
+        android:fontFamily="@font/armata"
+        android:text="Aggiungi Recensione" />
+
+    <Button
+        android:id="@+id/removeReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addReview"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#E88E07"
+        android:fontFamily="@font/armata"
+        android:text="Rimuovi Recensione" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/loginback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/marck_script"
+        android:letterSpacing="0.03"
+        android:text="Login"
+        android:textColor="#CF8A00"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/emailText"
+        android:hint="Email"
+        android:textColor="#BC8D30"
+        android:background="@drawable/forget"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/passwordText"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#A6881B"
+        android:background="@drawable/forget"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#E88E07"
+        android:fontFamily="@font/armata"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:cornerRadius="40dp" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/footer2" />
+
+</LinearLayout>
