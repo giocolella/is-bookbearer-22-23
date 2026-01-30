@@ -20,7 +20,7 @@
 ---
 
 ## 📌 Overview
-**Book Bearer** is a native Android application designed to help avid readers navigate the vast world of literary productions. Inspired by Tolkien's "Ring Bearer," this app serves as a trusty companion for your reading journey.
+**Book Bearer** is a native Android application designed to help avid readers navigate the vast world of literary productions. Inspired by Tolkien's "Ring Bearer", this app serves as a trusty companion for your reading journey.
 
 The main goals are:
 - **Discover** book quality before purchasing through community reviews.
@@ -34,7 +34,7 @@ This project was developed as part of the **Software Engineering** course (a.a. 
 ## 🎯 Motivation / Why This Project?
 - 📱 **Mobile Development**: To master complex Android application development using **Java** and **Android Studio**.
 - ☁️ **Serverless Architecture**: To explore **Firebase** as a full backend solution (Auth, Firestore, Storage) for managing data and users without a dedicated server.
-- 🏗 **Design Patterns**: To implement the **MVP (Model-View-Presenter)** architecture, ensuring clean, testable, and maintainable code.
+- 🏗 **Design Patterns**: To implement the **MVP (Model-View-Presenter)** architecture, ensuring clean, testable and maintainable code.
 - 📖 **User Needs**: To solve the practical "what should I read next?" problem by offering a tool to track readings and avoid blind purchases.
 
 ---
@@ -84,7 +84,7 @@ This project was developed as part of the **Software Engineering** course (a.a. 
 3.  **Firebase Configuration (Crucial):**
     *Note: The app requires a connection to a Firebase project to function.*
     - Create a new project on the [Firebase Console](https://console.firebase.google.com/).
-    - Add an Android app to the project using the package name (e.g., `com.example.bookbearer`).
+    - Add an Android app to the project using the package name (like `com.example.bookbearer`).
     - Download the `google-services.json` file.
     - **Move the `google-services.json` file into the `app/` folder of your project.**
     - Enable **Authentication** (Email/Password), **Firestore Database**, and **Storage** in the console.
@@ -101,8 +101,8 @@ This project was developed as part of the **Software Engineering** course (a.a. 
 
 Full project documentation produced during the software lifecycle:
 
-* **Requirements Analysis**: [RAD (Requirements Analysis Document)](./RAD_BookBearer.pdf) - Actors, use cases, and functional requirements.
-* **System Design**: [SDD (System Design Document)](./SDD_BookBearer.pdf) - MVP architecture, subsystem decomposition, and persistent data.
+* **Requirements Analysis**: [RAD (Requirements Analysis Document)](./RAD_BookBearer.pdf) - Actors, use cases and functional requirements.
+* **System Design**: [SDD (System Design Document)](./SDD_BookBearer.pdf) - MVP architecture, subsystem decomposition and persistent data.
 * **Object Design**: [ODD (Object Design Document)](./ODD_BookBearer.pdf) - Class implementation details and interactions.
 * **Testing**:
     * [Test Plan](./Test%20Plan_BookBearer.pdf)
